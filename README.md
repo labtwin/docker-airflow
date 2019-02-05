@@ -36,7 +36,7 @@ Run docker-airflow passing the variables of the .env file to the container at ru
     docker run -p 8080:8080 --env-file .env airflow-test webserver
 
 ### Open web interface
-Open web interface of airflow on https://github.com/puckel/docker-airflow
+Open web interface of airflow on localhost:8080
 
 ### Run specific task
 Get the docker container id
